@@ -1,2 +1,3 @@
 # minutentag-challenge
-Created with CodeSandbox
+
+Challenge de Minutentag. Vanilla HTML+CSS
