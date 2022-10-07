@@ -16,6 +16,16 @@ header {
   position: relative;
 }
 
+button {
+  cursor: pointer;
+  transition: all 100ms ease;
+}
+
+button:hover {
+  background-color: #6f5270 !important;
+  color: white !important;
+}
+
 .logo {
   position: absolute;
   top: 5vh;
@@ -370,14 +380,18 @@ li img {
     width: 50%;
   }
 
+  #Footer {
+    padding: 1rem 0;
+  }
+
   .footer-socials {
     margin-bottom: 4rem;
   }
   footer h1 {
-    font-size: clamp(1em, 4vw, 42px);
+    font-size: clamp(1em, 3vw, 30px);
   }
   li {
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
   }
   li img {
     width: clamp(1em, 6vw, 32px);
@@ -400,6 +414,10 @@ li img {
   }
   .header-content button {
     font-size: min(3vw, 20px);
+  }
+  #Values h1 {
+    margin-top: 0rem;
+    margin-bottom: 8rem;
   }
 }
 
